@@ -49,6 +49,16 @@ Cake successfully retrieved.
 ```
 {% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=302 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
 Could not find a cake matching this query.
@@ -62,5 +72,21 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% tabs %}
+{% tab title="C\#" %}
+printf
+{% endtab %}
 
+{% tab title="C++ " %}
+sout
+{% endtab %}
+
+{% tab title="Java" %}
+System.out
+{% endtab %}
+
+{% tab title="Go" %}
+fmt
+{% endtab %}
+{% endtabs %}
 
