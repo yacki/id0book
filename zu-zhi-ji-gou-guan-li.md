@@ -1,12 +1,12 @@
 ---
-description: 这是一个测试API，调用之前要通知沙僧！
+description: 这是一个测试API，调用之前要通知小龙。
 ---
 
-# 用户管理
+# 组织机构管理
 
-{% api-method method="get" host="https://api.senseworks.com" path="/v1/users/:id" %}
+{% api-method method="get" host="https://api.senseworks.com" path="/v1/orgs/:id" %}
 {% api-method-summary %}
-Get Users
+Get OrgList
 {% endapi-method-summary %}
 
 {% api-method-description %}
